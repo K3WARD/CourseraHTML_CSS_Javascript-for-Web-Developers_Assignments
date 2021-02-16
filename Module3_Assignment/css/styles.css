@@ -1,0 +1,115 @@
+body{
+  font-size: 20px;
+  color: #000000;
+  background-color: #FFFAF0;
+  font-family: 'preconnect', sans-serif;
+
+}
+
+#header-nav {
+    background-color: #A9A9A9;
+    border-radius: 0;
+    border: 0;
+    padding: 15px 15px 15px 15px;
+    margin: 0px 30px 15px 30px;
+    
+}
+
+#header-nav button {
+    margin-top: 22px;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #F0F8FF;
+}
+
+.navbar-collapse {
+    border-top: 0;
+}
+
+.navbar-brand, .navbar-nav li a {
+    line-height: 76px;
+    height: 76px;
+    padding-top: 0;
+    text-align:center;
+
+}
+
+.navbar-brand h1 {
+    color: #000000;
+    font-family: 'preconnect', serif;
+    font-weight: bolder;
+    font-size: 2em;
+    text-decoration: none;
+  
+}
+
+.navbar-brand a:hover {
+    text-decoration: none;
+    
+}
+
+#nav-list {
+    background-color: #F0F8FF;
+}
+
+#nav-list a {
+    font-weight: bolder;
+    color: #000000;
+    font-size: 1.2em;
+    text-align: centre;
+}
+
+#nav-list a:hover {
+    color: #202020;
+    background-color: #F0FFFF;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #7d1913;
+}
+
+h2 {
+ font-family: 'preconnect', serif;
+  color: #000000;
+  font-size: 2em;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 25px;
+  text-align: center;
+}
+  
+ h3 {
+  font-family: 'preconnect', serif;
+  color: #000000;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 25px;
+  text-align: center;
+  }
+
+section {
+  font-family: 'preconnect', serif;
+  color: #000000;
+  font-size: 1em;
+  margin-top: 0;
+  padding: 15px 15px 15px 15px;
+  margin: 15px 15px 15px 15px;
+  background-color: #A9A9A9;
+  height: auto;
+ }
+
+div{
+  height: fit-content;
+}
+
+p {
+  text-align: justify;
+}
+
+
+
+@media screen and (min-width: 768px) {
+  #nav-list {display: none;}
+}
